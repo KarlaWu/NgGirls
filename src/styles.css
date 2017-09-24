@@ -1,1 +1,45 @@
 /* You can add global styles to this file, and also import other style files */
+html, body, div, span,
+p, ul, li {
+  margin: auto;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: initial;
+  vertical-align: baseline;
+}
+
+h1 {
+    font-size: 28px;
+    font: Georgia;
+}
+
+body {
+  line-height: 1;
+  background: #A7DBDB;
+  font-size: 16px;
+  line-height: 22px;
+  color: #404040;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+.btn {
+  background: lightseagreen;
+  color: #fff;
+  padding: 3px 10px;
+  margin: 0 0 0 3px;
+  border: none;
+  border-radius: 5px;
+  font-size: 12px;
+  line-height: 24px;
+  cursor: pointer;
+  vertical-align: bottom;
+}
+
+.btn:hover {
+  background: #7E747C;
+}
